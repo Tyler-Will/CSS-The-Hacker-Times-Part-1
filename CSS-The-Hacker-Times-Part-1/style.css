@@ -61,11 +61,15 @@ header{
 
 /*More Articles*/
 .Tabs{
-   display: inline-block;
+   display: inline;
+   position:relative;
 }
+
 .Howmuch{
-    display:inline-block;
-    margin-left: 14em;
+    display:inline;
+    position:relative;
+    left: 348px;
+    bottom: 220px;
 }
 
 img{
@@ -73,11 +77,16 @@ img{
 }
 
 .lem1{
-    display:inline-block;
+    position: absolute;
+    display: ;
     text-align: justify;
-    margin-left: 11px
+    margin-left: 10px
 }
 .lem2{
-    display:inline-block;
+    display: ;
+    position: absolute;
+    margin-left: 10px;
+}
+h4{
     margin-left: 10px;
 }
