@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
+/*{
+    outline: 1px solid red;
+    }*/
+
+    /*{
+        outline: 1px solid red;
+        }*/
 
 .body{
     padding-left: 25em;
     background-color: #eee;
-    max-width: 700px;
+    max-width: 718px;
     font-family: Source Sans Pro;
 }
 .newspaper-container{
@@ -58,37 +65,72 @@ font-family: Roboto Slab;
 header{
     font-family: Abril Fatface;
 }
-
+hr{
+    color: 2px solid gray;
+}
 /*More Articles*/
-.Tabs{
+
+.TabsvSpices{
+position: relative;
+top: 100px;
+width: fit-content;
+}
+.Tabtitle{
+    position:absolute;
+    bottom: 272px;
+}
+
+
+.Caffeine{
+    position: relative;
+    bottom: 181px;
+    left: 367px;
+    width: fit-content;
+}
+
+.Caftitle{
+    position: absolute;
+    bottom: 272px;
+}
+
+
+
+
+/*.Tabs{
    display: inline;
    position:relative;
-}
-
-.Howmuch{
-    display: inline;
-    position: relative;
-    left: 348px;
-    bottom: 334px;
-}
-
-img{
-    position:
-    margin: 10px;
 }
 
 .lem1{
     position: ;
     display: ;
     text-align: ;
-    margin-left:
+    margin-left: ;
+    width: 300px;
+
+.Howmuch{
+    display: inline;
+    position: relative;
+    left: ;
+    bottom: ; }
+
+    .lem2{
+        display: ;
+        position: ;
+        margin-left: ;
+        width: 300px;
+
+img{
+    position:
+    margin: 10px;
+}
+
+
 
 }
-.lem2{
-    display: ;
-    position: ;
-    margin-left: ;
+
 }
 h4{
     margin-left: ;
+    width: 300px;
 }
